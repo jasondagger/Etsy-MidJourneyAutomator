@@ -1,32 +1,30 @@
-# Prerequisites
-*.d
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore build output
+MidJourneyAutomator/bin/
+MidJourneyAutomator/obj/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore NuGet packages
+packages/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Ignore build artifacts
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+
+# Ignore project-specific files
+*.csproj.user
+
+# Ignore temporary files
+*.cache
+*.log
+*.vscode
+
+# Ignore OS-specific files
+.DS_Store
+thumbs.db
